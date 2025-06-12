@@ -1,7 +1,7 @@
 title: 计算神经语言学论坛
 description: 一个专注于心理语言学、神经科学和计算建模交叉领域的学术论坛
-baseurl: "" # 如果您的网站不是部署在根目录，请在这里指定子目录
-url: "" # 您的网站域名
+baseurl: "/Computational-Neurolinguistics-Forum"
+url: "https://xufengduan.github.io"
 
 # 构建设置
 markdown: kramdown

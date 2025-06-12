@@ -34,7 +34,7 @@ permalink: /
                 <td>李伟博士</td>
                 <td><em>大型语言模型如何预测大脑活动</em></td>
                 <td>MIT BCS</td>
-                <td><a href="/events/2025-06-Li-Wei" class="button">详情</a></td>
+                <td><a href="{{ site.baseurl }}/events/2025-06-Li-Wei/" class="button">详情</a></td>
             </tr>
             <tr>
                 <td>2025年7月12日</td>
@@ -88,7 +88,7 @@ permalink: /
     <h3>想要加入我们的学术交流圈？</h3>
     <p style="margin: 1rem 0;">我们欢迎所有对计算神经语言学感兴趣的研究者和学生</p>
     <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1rem;">
-        <a href="/community" class="button">立即加入</a>
+        <a href="{{ site.baseurl }}/community/" class="button">立即加入</a>
         <a href="https://mp.weixin.qq.com/" class="button" style="background-color: var(--accent-color);">关注公众号</a>
     </div>
 </div>

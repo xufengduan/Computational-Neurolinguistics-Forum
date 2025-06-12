@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 讲座安排
-permalink: /events
+permalink: /events/
 ---
 
 # 讲座安排
@@ -10,7 +10,7 @@ permalink: /events
 
 | 日期 | 演讲者 | 主题 | 单位 | 链接 |
 |------|---------|-------|-------------|------|
-| 2025年6月28日 | 李伟博士 | *大型语言模型如何预测大脑活动* | MIT BCS | [详情](/events/2025-06-Li-Wei) |
+| 2025年6月28日 | 李伟博士 | *大型语言模型如何预测大脑活动* | MIT BCS | [详情]({{ site.baseurl }}/events/2025-06-Li-Wei/) |
 | 2025年7月12日 | 张瑞教授 | *大脑中的语音表征：MEG证据* | NYU Linguistics | 即将发布 |
 
 ## 如何参与
