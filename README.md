@@ -18,37 +18,117 @@ permalink: /
 ## 🎤 即将举行的讲座
 
 <div class="card" style="margin-top: 2rem;">
-    <table>
-        <thead>
-            <tr>
-                <th>日期</th>
-                <th>演讲者</th>
-                <th>主题</th>
-                <th>单位</th>
-                <th>链接</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for event in site.data.events.events %}
-                {% if event.status == 'active' or event.status == 'upcoming' %}
+    <div class="table-container">
+        <table class="events-table">
+            <thead>
                 <tr>
-                    <td>{{ event.date | date: "%Y年%m月%d日" }}</td>
-                    <td>{{ event.speaker }}</td>
-                    <td><em>{{ event.title }}</em></td>
-                    <td>{{ event.institution }}</td>
-                    <td>
-                        {% if event.status == 'active' %}
-                        <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">详情</a>
-                        {% elsif event.status == 'upcoming' %}
-                        <span class="button" style="background-color: var(--text-light); cursor: not-allowed;">即将发布</span>
-                        {% endif %}
-                    </td>
+                    <th>日期</th>
+                    <th>演讲者</th>
+                    <th>主题</th>
+                    <th>单位</th>
+                    <th>链接</th>
                 </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                {% for event in site.data.events.events %}
+                    {% if event.status == 'active' or event.status == 'upcoming' %}
+                    <tr>
+                        <td data-label="日期">{{ event.date | date: "%Y年%m月%d日" }}</td>
+                        <td data-label="演讲者">{{ event.speaker }}</td>
+                        <td data-label="主题"><em>{{ event.title }}</em></td>
+                        <td data-label="单位">{{ event.institution }}</td>
+                        <td data-label="链接">
+                            {% if event.status == 'active' %}
+                            <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">详情</a>
+                            {% elsif event.status == 'upcoming' %}
+                            <span class="button" style="background-color: var(--text-light); cursor: not-allowed;">即将发布</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
 </div>
+
+<style>
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.events-table th,
+.events-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.events-table th {
+    background-color: var(--primary-color);
+    color: #5b5a5a;
+    white-space: nowrap;
+}
+
+.events-table tr:hover {
+    background-color: var(--background-light);
+}
+
+@media screen and (max-width: 768px) {
+    .events-table {
+        display: block;
+    }
+
+    .events-table thead {
+        display: none;
+    }
+
+    .events-table tbody {
+        display: block;
+    }
+
+    .events-table tr {
+        display: block;
+        margin-bottom: 1rem;
+        background: var(--background-light);
+        border-radius: var(--border-radius);
+        padding: 1rem;
+    }
+
+    .events-table td {
+        display: block;
+        text-align: right;
+        padding: 0.5rem 1rem;
+        border: none;
+        position: relative;
+    }
+
+    .events-table td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        color: var(--text-color);
+    }
+
+    .events-table td:last-child {
+        border-bottom: none;
+    }
+
+    .events-table tr:hover {
+        background-color: var(--background-light);
+    }
+}
+</style>
 
 > 所有讲座都是免费的，面向研究人员、学生和爱好者开放。欢迎通过 Zoom 参与讲座并进行问答互动！
 
