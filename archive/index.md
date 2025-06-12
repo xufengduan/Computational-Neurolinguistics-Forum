@@ -6,33 +6,28 @@ permalink: /archive
 
 # 历史讲座汇总
 
-## 2025年
+{% assign events_by_year = site.data.events.events | group_by_exp: "event", "event.date | date: '%Y'" | sort: "name" | reverse %}
 
-### 5月
-- **陈晓明博士** (北京大学)
-  - 主题：*用大型语言模型逆向工程大脑*
-  - 日期：2025年5月15日
-  - [讲座材料](#)
+{% for year in events_by_year %}
+## {{ year.name }}年
 
-### 4月
-- **Anna Lee博士** (加州大学伯克利分校)
-  - 主题：*语言处理中的层次贝叶斯模型*
-  - 日期：2025年4月20日
-  - [讲座视频](#)
+{% assign events_by_month = year.items | group_by_exp: "event", "event.date | date: '%m'" | sort: "name" | reverse %}
 
-## 2024年
+{% for month in events_by_month %}
+### {{ month.name | date: "%m" | to_integer | date: "%m月" }}
 
-### 12月
-- **王明教授** (斯坦福大学)
-  - 主题：*神经语言学中的多模态学习*
-  - 日期：2024年12月10日
-  - [讲座材料](#)
+{% for event in month.items %}
+- **{{ event.speaker }}** ({{ event.institution }})
+  - 主题：*{{ event.title }}*
+  - 日期：{{ event.date | date: "%Y年%m月%d日" }}
+  {% if event.resources %}
+  - 资源：
+    {{ event.resources }}
+  {% endif %}
+{% endfor %}
 
-### 11月
-- **Sarah Johnson博士** (牛津大学)
-  - 主题：*语言习得的计算模型*
-  - 日期：2024年11月5日
-  - [讲座视频](#)
+{% endfor %}
+{% endfor %}
 
 ---
 
