@@ -180,7 +180,7 @@ window.onclick = function(event) {
 ## ⭐️ 致谢
 
 <div class="card" style="text-align: center;">
-    <p>本论坛由<a href="https://mp.weixin.qq.com/">计算神经语言学</a>公众号背后的研究者组织，得到了来自心理学家、语言学家和计算科学家组成的跨学科社群的支持。</p>
+    <p>本论坛由计算神经语言学公众号背后的研究者组织，得到了来自心理学家、语言学家和计算科学家组成的跨学科社群的支持。</p>
 </div>
 
 ---
