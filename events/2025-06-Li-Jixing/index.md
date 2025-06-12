@@ -5,7 +5,23 @@ speaker: 李吉星博士
 institution: 香港城市大学
 date: 2025-06-28
 permalink: /events/2025-06-Li-Jixing/
-zoom_link: https://cuhk.zoom.us/j/6549166637
+zoom_link: |
+  https://cuhk.zoom.us/j/6549166637
+abstract: |
+  本研究探讨了大型语言模型（LLMs）与人类大脑语言处理的对齐关系。研究了模型规模（scaling）和指令微调（instruction tuning）对模型-大脑对齐的影响。
+  通过比较不同规模的基座模型和微调模型与人类眼动和功能磁共振成像（fMRI）数据的对应关系，我们发现模型规模对模型-大脑对齐的影响大于指令微调。
+  这一发现对理解LLMs的认知合理性及其在研究自然语言理解中的作用具有重要意义。
+  
+bio: |
+  李吉星博士是香港城市大学语言学及翻译学系和行为及社会科学系的助理教授。
+  她的研究主要应用计算模型来理解人类大脑在语言理解过程中如何表示和计算语义和句法信息。
+  
+outline: |
+  1. 讲座内容
+  2. 问答环节
+  
+resources: |
+  - [预读论文](https://www.biorxiv.org/content/10.1101/2024.08.15.608196v4)
 ---
 
 ## 讲座简介

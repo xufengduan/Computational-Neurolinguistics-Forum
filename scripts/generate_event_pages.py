@@ -25,13 +25,15 @@ date: {event["date"]}
 permalink: /events/{event["permalink"]}/
 '''
 
-    # 添加可选字段
-    if 'zoom_link' in event:
-        content += f'zoom_link: {event["zoom_link"]}\n'
-    if 'slides' in event:
-        content += f'slides: {event["slides"]}\n'
-    if 'video' in event:
-        content += f'video: {event["video"]}\n'
+    # 添加所有可选字段
+    optional_fields = ['zoom_link', 'slides', 'video',
+                       'abstract', 'bio', 'outline', 'resources']
+    for field in optional_fields:
+        if field in event:
+            content += f'{field}: |\n'
+            # 确保多行文本正确缩进
+            for line in event[field].split('\n'):
+                content += f'  {line}\n'
 
     content += '''---
 

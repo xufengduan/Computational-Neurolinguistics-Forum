@@ -90,14 +90,32 @@ permalink: /
 ## 👥 组织者
 
 <div class="card">
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
-        <div>
-            <h4>论坛组织者</h4>
-            <ul style="list-style: none; padding: 0;">
-                <li style="margin-bottom: 1rem;"><a href="https://xufengduan.github.io/">段旭峰</a></li>
-                <li style="margin-bottom: 1rem;"><a href="https://scholar.google.com/citations?user=zfmMDg4AAAAJ&hl=en">王书琪</a></li>
-                <li style="margin-bottom: 1rem;"><a href="https://hanlin.phd/">吴翰林</a></li>
-            </ul>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        <div style="text-align: center;">
+            <img src="{{ site.baseurl }}/assets/images/organizers/xufeng.jpg" alt="段旭峰" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+            <h3 style="margin: 0.5rem 0;">段旭峰</h3>
+            <p style="color: var(--text-light); margin: 0.5rem 0;">香港中文大学</p>
+            <div style="margin-top: 1rem;">
+                <a href="https://xufengduan.github.io/" class="button" style="margin: 0.5rem;">个人主页</a>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <img src="{{ site.baseurl }}/assets/images/organizers/shuqi.jpg" alt="王书琪" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+            <h3 style="margin: 0.5rem 0;">王书琪</h3>
+            <p style="color: var(--text-light); margin: 0.5rem 0;">香港大学</p>
+            <div style="margin-top: 1rem;">
+                <a href="https://scholar.google.com/citations?user=zfmMDg4AAAAJ&hl=en" class="button" style="margin: 0.5rem;">Google Scholar</a>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <img src="{{ site.baseurl }}/assets/images/organizers/hanlin.jpg" alt="吴翰林" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+            <h3 style="margin: 0.5rem 0;">吴翰林</h3>
+            <p style="color: var(--text-light); margin: 0.5rem 0;">香港大学</p>
+            <div style="margin-top: 1rem;">
+                <a href="https://hanlin.phd/" class="button" style="margin: 0.5rem;">个人主页</a>
+            </div>
         </div>
     </div>
 </div>
@@ -109,9 +127,36 @@ permalink: /
     <p style="margin: 1rem 0;">我们欢迎所有对计算神经语言学感兴趣的研究者和学生</p>
     <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1rem;">
         <a href="{{ site.baseurl }}/community/" class="button">立即加入</a>
-        <a href="https://mp.weixin.qq.com/" class="button" style="background-color: var(--accent-color);">关注公众号</a>
+        <button onclick="showQRCode()" class="button" style="background-color: var(--accent-color);">关注公众号</button>
     </div>
 </div>
+
+<!-- 二维码模态框 -->
+<div id="qrcodeModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 1000;">
+    <div style="position: relative; background-color: white; margin: 15% auto; padding: 20px; width: 300px; border-radius: 5px; text-align: center;">
+        <span onclick="hideQRCode()" style="position: absolute; right: 10px; top: 5px; cursor: pointer; font-size: 20px;">&times;</span>
+        <h3 style="margin-bottom: 20px;">扫码关注公众号</h3>
+        <img src="{{ site.baseurl }}/assets/images/qrcode.jpg" alt="公众号二维码" style="width: 200px; height: 200px;">
+    </div>
+</div>
+
+<script>
+function showQRCode() {
+    document.getElementById('qrcodeModal').style.display = 'block';
+}
+
+function hideQRCode() {
+    document.getElementById('qrcodeModal').style.display = 'none';
+}
+
+// 点击模态框外部关闭
+window.onclick = function(event) {
+    var modal = document.getElementById('qrcodeModal');
+    if (event.target == modal) {
+        modal.style.display = 'none';
+    }
+}
+</script>
 
 ## 📬 联系我们
 
