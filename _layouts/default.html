@@ -52,12 +52,10 @@
         }
 
         .site-title {
-            position: absolute;
-            left: 0;
-            right: 0;
-            text-align: center;
-            padding: 0;
-            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
         }
 
         .site-logo {
@@ -68,10 +66,9 @@
         }
 
         .nav-links {
-            position: relative;
-            z-index: 1;
             display: flex;
             gap: 1.5rem;
+            margin-left: auto;
         }
 
         .nav-links a {
