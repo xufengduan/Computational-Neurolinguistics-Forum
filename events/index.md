@@ -44,10 +44,10 @@ permalink: /events/
 ## 历史讲座
 
 <div class="card">
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; overflow: hidden;">
         {% for event in site.data.events.events %}
             {% if event.status == 'past' %}
-            <div style="background: var(--background-light); padding: 1rem; border-radius: var(--border-radius);">
+            <div style="background: var(--background-light); padding: 1rem; border-radius: var(--border-radius); overflow: hidden;">
                 <h4>{{ event.date | date: "%Y年%m月" }}</h4>
                 <p><strong>{{ event.title }}</strong></p>
                 <p>{{ event.speaker }}（{{ event.institution }}）</p>
