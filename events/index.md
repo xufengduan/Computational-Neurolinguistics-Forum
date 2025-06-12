@@ -20,7 +20,7 @@ permalink: /events/
             </tr>
         </thead>
         <tbody>
-            {% assign upcoming_events = site.data.events.events | where: "status", "active" | concat: site.data.events.events | where: "status", "upcoming" | sort: "date" %}
+            {% assign upcoming_events = site.data.events.events | where_exp: "event", "event.status == 'active' or event.status == 'upcoming'" | sort: "date" %}
             {% for event in upcoming_events %}
             <tr>
                 <td>{{ event.date | date: "%Y年%m月%d日" }}</td>
@@ -44,7 +44,7 @@ permalink: /events/
 
 <div class="card">
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
-        {% assign past_events = site.data.events.events | where: "status", "past" | sort: "date" | reverse %}
+        {% assign past_events = site.data.events.events | where_exp: "event", "event.status == 'past'" | sort: "date" | reverse %}
         {% for event in past_events %}
         <div style="background: var(--background-light); padding: 1rem; border-radius: var(--border-radius);">
             <h4>{{ event.date | date: "%Y年%m月" }}</h4>

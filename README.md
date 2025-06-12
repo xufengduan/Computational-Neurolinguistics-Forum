@@ -29,7 +29,7 @@ permalink: /
             </tr>
         </thead>
         <tbody>
-            {% assign upcoming_events = site.data.events.events | where: "status", "active" | concat: site.data.events.events | where: "status", "upcoming" | sort: "date" %}
+            {% assign upcoming_events = site.data.events.events | where_exp: "event", "event.status == 'active' or event.status == 'upcoming'" | sort: "date" %}
             {% for event in upcoming_events %}
             <tr>
                 <td>{{ event.date | date: "%Y年%m月%d日" }}</td>
