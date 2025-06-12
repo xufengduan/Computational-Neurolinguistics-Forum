@@ -1,3 +1,9 @@
+---
+layout: default
+title: 加入社群
+permalink: /community
+---
+
 # 加入计算神经语言学社群
 
 欢迎加入我们的学术社群！我们致力于促进计算神经语言学领域的跨学科交流与合作。

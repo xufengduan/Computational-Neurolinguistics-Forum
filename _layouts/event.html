@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="event">
+    <header>
+        <h1>{{ page.title }}</h1>
+        <div class="event-meta">
+            <p><strong>演讲者：</strong>{{ page.speaker }}</p>
+            <p><strong>日期：</strong>{{ page.date }}</p>
+            <p><strong>时间：</strong>{{ page.time }}</p>
+            <p><strong>地点：</strong>{{ page.location }}</p>
+        </div>
+    </header>
+
+    <div class="event-content">
+        {{ content }}
+    </div>
+</article>

@@ -1,3 +1,9 @@
+---
+layout: default
+title: 历史讲座汇总
+permalink: /archive
+---
+
 # 历史讲座汇总
 
 ## 2025年
