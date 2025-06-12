@@ -94,7 +94,7 @@ permalink: /community/
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
         <div class="contact-card">
             <h4>📧 邮箱</h4>
-            <p><a href="mailto:xufeng.duan@link.cuhk.edu.hk">xufeng.duan@link.cuhk.edu.hk</a></p>
+            <p><a href="mailto:shuqiwang@link.cuhk.edu.hk">shuqiwang@link.cuhk.edu.hk</a></p>
         </div>
         <div class="contact-card">
             <h4>📱 微信公众号</h4>

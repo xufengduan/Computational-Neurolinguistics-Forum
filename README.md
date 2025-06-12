@@ -7,10 +7,10 @@ permalink: /
 # 🧠 计算神经语言学论坛
 
 <div style="text-align: center; margin: 2rem 0;">
-    <p style="font-size: 1.2rem; color: var(--text-light);">
+    <p style="color: var(--text-light);">
         欢迎来到<strong>计算神经语言学论坛</strong>的官方网站，这是一个由<strong>计算神经语言学</strong>公众号主办的学术交流平台。
     </p>
-    <p style="font-size: 1.2rem; color: var(--text-light);">
+    <p style="color: var(--text-light);">
         我们专注于<strong>心理语言学、神经科学和计算建模</strong>的交叉领域，促进开放、跨学科的对话。
     </p>
 </div>
@@ -140,7 +140,7 @@ permalink: /
 
     <h3>我们的工作</h3>
     <ul style="list-style: none; padding: 0;">
-        <li style="margin-bottom: 1rem;">🎯 举办领域内顶尖学者的在线讲座</li>
+        <li style="margin-bottom: 1rem;">🎯 举办领域内学者的在线讲座</li>
         <li style="margin-bottom: 1rem;">📚 分享技术资源、分析流程和阅读清单</li>
         <li style="margin-bottom: 1rem;">🤝 建立专注于跨学科合作的学术社群</li>
     </ul>
@@ -252,7 +252,7 @@ window.onclick = function(event) {
         </div>
         <div>
             <h4>联系方式</h4>
-            <p>📧 <a href="mailto:xufeng.duan@link.cuhk.edu.hk">xufeng.duan@link.cuhk.edu.hk</a></p>
+            <p>📧 <a href="mailto:shuqiwang@link.cuhk.edu.hk">shuqiwang@link.cuhk.edu.hk</a></p>
         </div>
     </div>
 </div>
