@@ -185,7 +185,7 @@ permalink: /
             <h3 style="margin: 0.5rem 0;">王书琪</h3>
             <p style="color: var(--text-light); margin: 0.5rem 0;">香港中文大学</p>
             <div style="margin-top: 1rem;">
-                <a href="https://scholar.google.com/citations?user=zfmMDg4AAAAJ&hl=en" class="button" style="margin: 0.5rem;">Google Scholar</a>
+                <a href="https://scholar.google.com/citations?user=zfmMDg4AAAAJ&hl=en" class="button" style="margin: 0.5rem;">个人主页</a>
             </div>
         </div>
         
