@@ -10,7 +10,7 @@ def load_events():
         return yaml.safe_load(f)
 
 
-def generate_event_page(event, is_past=False):
+def generate_event_page(event):
     # 创建讲座目录
     event_dir = f'events/{event["permalink"]}'
     os.makedirs(event_dir, exist_ok=True)
@@ -88,13 +88,11 @@ def main():
     # 加载所有讲座数据
     events_data = load_events()
 
-    # 生成即将举行的讲座页面
-    for event in events_data['upcoming']:
-        generate_event_page(event)
-
-    # 生成历史讲座页面
-    for event in events_data['past']:
-        generate_event_page(event, is_past=True)
+    # 只生成 active 和 upcoming 状态的讲座页面
+    for event in events_data['events']:
+        if event['status'] in ['active', 'upcoming']:
+            print(f"生成讲座页面：{event['title']}")
+            generate_event_page(event)
 
 
 if __name__ == '__main__':

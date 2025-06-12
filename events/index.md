@@ -20,7 +20,8 @@ permalink: /events/
             </tr>
         </thead>
         <tbody>
-            {% for event in site.data.events.upcoming %}
+            {% assign upcoming_events = site.data.events.events | where: "status", "active" | concat: site.data.events.events | where: "status", "upcoming" | sort: "date" %}
+            {% for event in upcoming_events %}
             <tr>
                 <td>{{ event.date | date: "%Y年%m月%d日" }}</td>
                 <td>{{ event.speaker }}</td>
@@ -43,7 +44,8 @@ permalink: /events/
 
 <div class="card">
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
-        {% for event in site.data.events.past %}
+        {% assign past_events = site.data.events.events | where: "status", "past" | sort: "date" | reverse %}
+        {% for event in past_events %}
         <div style="background: var(--background-light); padding: 1rem; border-radius: var(--border-radius);">
             <h4>{{ event.date | date: "%Y年%m月" }}</h4>
             <p><strong>{{ event.title }}</strong></p>
