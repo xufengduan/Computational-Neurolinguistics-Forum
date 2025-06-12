@@ -1,0 +1,60 @@
+upcoming:
+  - date: 2025-06-28
+    speaker: 李伟博士
+    title: 大型语言模型如何预测大脑活动
+    institution: MIT BCS
+    permalink: 2025-06-Li-Wei
+    status: active
+    zoom_link: https://mit.zoom.us/j/123456789
+    abstract: |
+      本次讲座将探讨大型语言模型（LLMs）在预测和理解大脑活动方面的最新进展。我们将讨论：
+      1. 如何将语言模型的特征映射到大脑活动
+      2. 模型架构对预测准确性的影响
+      3. 跨模态对齐的挑战和机遇
+    bio: |
+      李伟博士是 MIT 脑与认知科学系的博士后研究员，专注于计算神经科学和自然语言处理的交叉研究。
+      他的工作发表在 Nature Neuroscience、Neuron 等顶级期刊上。
+    outline: |
+      1. 引言：语言模型与大脑的相似性
+      2. 方法：从文本到大脑活动的映射
+      3. 结果：预测准确性和模型比较
+      4. 讨论：未来研究方向
+      5. 问答环节
+    resources: |
+      - [预读论文](https://arxiv.org/abs/xxxx.xxxxx)
+      - [代码仓库](https://github.com/xxx/xxx)
+      - [相关博客](https://xxx.xxx)
+  - date: 2025-07-12
+    speaker: 张瑞教授
+    title: 大脑中的语音表征：MEG证据
+    institution: NYU Linguistics
+    permalink: 2025-07-Zhang-Rui
+    status: upcoming
+    abstract: |
+      本次讲座将介绍使用脑磁图（MEG）研究语音处理的最新发现。
+    bio: |
+      张瑞教授是纽约大学语言学系的副教授，主要研究语音感知和处理的神经机制。
+
+past:
+  - date: 2025-05-15
+    speaker: 陈晓明博士
+    title: 用大型语言模型逆向工程大脑
+    institution: 北京大学
+    permalink: 2025-05-Chen-Xiaoming
+    slides: "#"
+    video: "#"
+    abstract: |
+      本次讲座探讨了如何使用大型语言模型来理解大脑的语言处理机制。
+    bio: |
+      陈晓明博士是北京大学心理与认知科学学院的研究员，专注于认知神经科学和计算建模。
+
+  - date: 2025-04-10
+    speaker: Anna Lee博士
+    title: 语言处理中的层次贝叶斯模型
+    institution: 加州大学伯克利分校
+    permalink: 2025-04-Anna-Lee
+    video: "#"
+    abstract: |
+      本次讲座介绍了层次贝叶斯模型在语言处理研究中的应用。
+    bio: |
+      Anna Lee博士是加州大学伯克利分校的助理教授，研究计算认知科学和语言习得。 

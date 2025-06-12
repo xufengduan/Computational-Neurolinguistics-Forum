@@ -16,4 +16,12 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-  - .gitignore 
+  - .gitignore
+  - scripts
+  - Makefile
+
+# 集合配置
+collections:
+  events:
+    output: true
+    permalink: /events/:path/ 

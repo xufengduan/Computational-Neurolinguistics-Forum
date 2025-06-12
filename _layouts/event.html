@@ -1,18 +1,60 @@
 ---
 layout: default
 ---
-<article class="event">
-    <header>
+<div class="event-detail">
+    <div class="card">
         <h1>{{ page.title }}</h1>
         <div class="event-meta">
             <p><strong>演讲者：</strong>{{ page.speaker }}</p>
-            <p><strong>日期：</strong>{{ page.date }}</p>
-            <p><strong>时间：</strong>{{ page.time }}</p>
-            <p><strong>地点：</strong>{{ page.location }}</p>
+            <p><strong>单位：</strong>{{ page.institution }}</p>
+            <p><strong>时间：</strong>{{ page.date | date: "%Y年%m月%d日" }}</p>
+            {% if page.zoom_link %}
+            <p><strong>Zoom链接：</strong><a href="{{ page.zoom_link }}">点击加入</a></p>
+            {% endif %}
         </div>
-    </header>
 
-    <div class="event-content">
-        {{ content }}
+        <div class="event-content">
+            {{ content }}
+        </div>
+
+        {% if page.slides %}
+        <div class="event-resources">
+            <h3>讲座资源</h3>
+            <a href="{{ page.slides }}" class="button">查看幻灯片</a>
+        </div>
+        {% endif %}
+
+        {% if page.video %}
+        <div class="event-resources">
+            <h3>讲座视频</h3>
+            <a href="{{ page.video }}" class="button">观看视频</a>
+        </div>
+        {% endif %}
     </div>
-</article>
+</div>
+
+<style>
+    .event-detail {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+
+    .event-meta {
+        margin: 2rem 0;
+        padding: 1rem;
+        background: var(--background-light);
+        border-radius: var(--border-radius);
+    }
+
+    .event-content {
+        margin: 2rem 0;
+        line-height: 1.6;
+    }
+
+    .event-resources {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--border-color);
+    }
+</style>

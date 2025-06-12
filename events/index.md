@@ -1,17 +1,63 @@
 ---
 layout: default
-title: 讲座安排
+title: 讲座列表
 permalink: /events/
 ---
 
-# 讲座安排
+# 🎤 讲座列表
 
 ## 即将举行的讲座
 
-| 日期 | 演讲者 | 主题 | 单位 | 链接 |
-|------|---------|-------|-------------|------|
-| 2025年6月28日 | 李伟博士 | *大型语言模型如何预测大脑活动* | MIT BCS | [详情]({{ site.baseurl }}/events/2025-06-Li-Wei/) |
-| 2025年7月12日 | 张瑞教授 | *大脑中的语音表征：MEG证据* | NYU Linguistics | 即将发布 |
+<div class="card" style="margin-top: 2rem;">
+    <table>
+        <thead>
+            <tr>
+                <th>日期</th>
+                <th>演讲者</th>
+                <th>主题</th>
+                <th>单位</th>
+                <th>链接</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for event in site.data.events.upcoming %}
+            <tr>
+                <td>{{ event.date | date: "%Y年%m月%d日" }}</td>
+                <td>{{ event.speaker }}</td>
+                <td><em>{{ event.title }}</em></td>
+                <td>{{ event.institution }}</td>
+                <td>
+                    {% if event.status == 'active' %}
+                    <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">详情</a>
+                    {% else %}
+                    <span class="button" style="background-color: var(--text-light);">即将发布</span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+## 历史讲座
+
+<div class="card">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+        {% for event in site.data.events.past %}
+        <div style="background: var(--background-light); padding: 1rem; border-radius: var(--border-radius);">
+            <h4>{{ event.date | date: "%Y年%m月" }}</h4>
+            <p><strong>{{ event.title }}</strong></p>
+            <p>{{ event.speaker }}（{{ event.institution }}）</p>
+            {% if event.slides %}
+            <a href="{{ event.slides }}" class="button">查看幻灯片</a>
+            {% endif %}
+            {% if event.video %}
+            <a href="{{ event.video }}" class="button">观看视频</a>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
 
 ## 如何参与
 

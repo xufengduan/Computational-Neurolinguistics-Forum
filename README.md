@@ -29,20 +29,21 @@ permalink: /
             </tr>
         </thead>
         <tbody>
+            {% for event in site.data.events.upcoming %}
             <tr>
-                <td>2025年6月28日</td>
-                <td>李伟博士</td>
-                <td><em>大型语言模型如何预测大脑活动</em></td>
-                <td>MIT BCS</td>
-                <td><a href="{{ site.baseurl }}/events/2025-06-Li-Wei/" class="button">详情</a></td>
+                <td>{{ event.date | date: "%Y年%m月%d日" }}</td>
+                <td>{{ event.speaker }}</td>
+                <td><em>{{ event.title }}</em></td>
+                <td>{{ event.institution }}</td>
+                <td>
+                    {% if event.status == 'active' %}
+                    <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">详情</a>
+                    {% else %}
+                    <span class="button" style="background-color: var(--text-light);">即将发布</span>
+                    {% endif %}
+                </td>
             </tr>
-            <tr>
-                <td>2025年7月12日</td>
-                <td>张瑞教授</td>
-                <td><em>大脑中的语音表征：MEG证据</em></td>
-                <td>NYU Linguistics</td>
-                <td><span class="button" style="background-color: var(--text-light);">即将发布</span></td>
-            </tr>
+            {% endfor %}
         </tbody>
     </table>
 </div>
@@ -67,18 +68,19 @@ permalink: /
 
 <div class="card">
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+        {% for event in site.data.events.past %}
         <div style="background: var(--background-light); padding: 1rem; border-radius: var(--border-radius);">
-            <h4>2025年5月</h4>
-            <p><strong>用大型语言模型逆向工程大脑</strong></p>
-            <p>陈晓明博士（北京大学）</p>
-            <a href="#" class="button">查看幻灯片</a>
+            <h4>{{ event.date | date: "%Y年%m月" }}</h4>
+            <p><strong>{{ event.title }}</strong></p>
+            <p>{{ event.speaker }}（{{ event.institution }}）</p>
+            {% if event.slides %}
+            <a href="{{ event.slides }}" class="button">查看幻灯片</a>
+            {% endif %}
+            {% if event.video %}
+            <a href="{{ event.video }}" class="button">观看视频</a>
+            {% endif %}
         </div>
-        <div style="background: var(--background-light); padding: 1rem; border-radius: var(--border-radius);">
-            <h4>2025年4月</h4>
-            <p><strong>语言处理中的层次贝叶斯模型</strong></p>
-            <p>Anna Lee博士（加州大学伯克利分校）</p>
-            <a href="#" class="button">观看视频</a>
-        </div>
+        {% endfor %}
     </div>
 </div>
 
