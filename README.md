@@ -38,8 +38,8 @@ permalink: /
                 <td>
                     {% if event.status == 'active' %}
                     <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">详情</a>
-                    {% else %}
-                    <span class="button" style="background-color: var(--text-light);">即将发布</span>
+                    {% elsif event.status == 'upcoming' %}
+                    <span class="button" style="background-color: var(--text-light); cursor: not-allowed;">即将发布</span>
                     {% endif %}
                 </td>
             </tr>

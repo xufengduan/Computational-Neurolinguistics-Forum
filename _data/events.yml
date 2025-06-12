@@ -41,6 +41,7 @@ past:
     title: 用大型语言模型逆向工程大脑
     institution: 北京大学
     permalink: 2025-05-Chen-Xiaoming
+    status: active
     slides: "#"
     video: "#"
     abstract: |
@@ -53,6 +54,7 @@ past:
     title: 语言处理中的层次贝叶斯模型
     institution: 加州大学伯克利分校
     permalink: 2025-04-Anna-Lee
+    status: past
     video: "#"
     abstract: |
       本次讲座介绍了层次贝叶斯模型在语言处理研究中的应用。
