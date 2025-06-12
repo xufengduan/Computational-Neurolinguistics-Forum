@@ -2,9 +2,9 @@ events:
   - date: 2025-06-28
     speaker: 李吉星博士
     title: 大型语言模型如何预测大脑活动
-    institution: MIT BCS
+    institution: 香港城市大学
     permalink: 2025-06-Li-Jixing
-    status: upcoming
+    status: active
     zoom_link: https://cuhk.zoom.us/j/6549166637
     abstract: |
        本研究探讨了大型语言模型（LLMs）与人类大脑语言处理的对齐关系。研究了模型规模（scaling）和指令微调（instruction tuning）对模型-大脑对齐的影响。
@@ -18,4 +18,3 @@ events:
       2. 问答环节
     resources: |
       - [预读论文](https://www.biorxiv.org/content/10.1101/2024.08.15.608196v4)
-  
