@@ -1,12 +1,11 @@
 ---
 layout: event
-title: 用大型语言模型逆向工程大脑
-speaker: 陈晓明博士
-institution: 北京大学
-date: 2025-05-15
-permalink: /events/2025-05-Chen-Xiaoming/
-slides: #
-video: #
+title: 大型语言模型如何预测大脑活动
+speaker: 李吉星博士
+institution: MIT BCS
+date: 2025-06-28
+permalink: /events/2025-06-Li-Jixing/
+zoom_link: https://cuhk.zoom.us/j/6549166637
 ---
 
 ## 讲座简介

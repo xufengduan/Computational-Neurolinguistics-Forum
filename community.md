@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 加入社群
-permalink: /community
+permalink: /community/
 ---
 
 # 加入计算神经语言学社群
