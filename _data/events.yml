@@ -1,7 +1,7 @@
 events:
   - date: 2025-06-28
     speaker: 李吉星博士
-    title: 大型语言模型如何预测大脑活动
+    title: 模型规模对模型-大脑对齐的影响
     institution: 香港城市大学
     permalink: 2025-06-Li-Jixing
     status: active

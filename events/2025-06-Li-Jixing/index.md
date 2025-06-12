@@ -1,8 +1,8 @@
 ---
 layout: event
-title: 大型语言模型如何预测大脑活动
+title: 模型规模对模型-大脑对齐的影响
 speaker: 李吉星博士
-institution: MIT BCS
+institution: 香港城市大学
 date: 2025-06-28
 permalink: /events/2025-06-Li-Jixing/
 zoom_link: https://cuhk.zoom.us/j/6549166637
