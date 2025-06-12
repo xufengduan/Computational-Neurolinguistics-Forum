@@ -172,7 +172,7 @@ window.onclick = function(event) {
         </div>
         <div>
             <h4>联系方式</h4>
-            <p>📧 <a href="mailto:neuro.language.research@gmail.com">neuro.language.research@gmail.com</a></p>
+            <p>📧 <a href="mailto:xufeng.duan@link.cuhk.edu.hk">xufeng.duan@link.cuhk.edu.hk</a></p>
         </div>
     </div>
 </div>
