@@ -11,23 +11,57 @@ permalink: /archive
 {% for year in events_by_year %}
 ## {{ year.name }}年
 
-{% assign events_by_month = year.items | group_by_exp: "event", "event.date | date: '%m'" | sort: "name" | reverse %}
-
-{% for month in events_by_month %}
-### {{ month.name }}月
-
-{% for event in month.items %}
-- **{{ event.speaker }}** ({{ event.institution }})
-  - 主题：*{{ event.title }}*
-  - 日期：{{ event.date | date: "%Y年%m月%d日" }}
-  {% if event.resources %}
-  - 资源：
-    {{ event.resources }}
-  {% endif %}
+<div class="card" style="margin: 2rem 0;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+        {% assign events_by_month = year.items | group_by_exp: "event", "event.date | date: '%m'" | sort: "name" | reverse %}
+        {% for month in events_by_month %}
+            {% for event in month.items %}
+            <div class="event-card">
+                <h4>{{ event.date | date: "%Y年%m月" }}</h4>
+                <p><strong>{{ event.title }}</strong></p>
+                <p>{{ event.speaker }}（{{ event.institution }}）</p>
+                {% if event.slides %}
+                <a href="{{ event.slides }}" class="button">查看幻灯片</a>
+                {% endif %}
+                {% if event.video %}
+                <a href="{{ event.video }}" class="button">观看视频</a>
+                {% endif %}
+            </div>
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>
 {% endfor %}
 
-{% endfor %}
-{% endfor %}
+<style>
+.event-card {
+    background: var(--background-light);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h4 {
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.event-card p {
+    color: var(--text-light);
+    margin: 0.5rem 0;
+}
+
+.event-card .button {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
+</style>
 
 ---
 
