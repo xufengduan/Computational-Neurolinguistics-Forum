@@ -29,21 +29,22 @@ permalink: /
             </tr>
         </thead>
         <tbody>
-            {% assign upcoming_events = site.data.events.events | where_exp: "event", "event.status == 'active' or event.status == 'upcoming'" | sort: "date" %}
-            {% for event in upcoming_events %}
-            <tr>
-                <td>{{ event.date | date: "%Y年%m月%d日" }}</td>
-                <td>{{ event.speaker }}</td>
-                <td><em>{{ event.title }}</em></td>
-                <td>{{ event.institution }}</td>
-                <td>
-                    {% if event.status == 'active' %}
-                    <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">详情</a>
-                    {% elsif event.status == 'upcoming' %}
-                    <span class="button" style="background-color: var(--text-light); cursor: not-allowed;">即将发布</span>
-                    {% endif %}
-                </td>
-            </tr>
+            {% for event in site.data.events.events %}
+                {% if event.status == 'active' or event.status == 'upcoming' %}
+                <tr>
+                    <td>{{ event.date | date: "%Y年%m月%d日" }}</td>
+                    <td>{{ event.speaker }}</td>
+                    <td><em>{{ event.title }}</em></td>
+                    <td>{{ event.institution }}</td>
+                    <td>
+                        {% if event.status == 'active' %}
+                        <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">详情</a>
+                        {% elsif event.status == 'upcoming' %}
+                        <span class="button" style="background-color: var(--text-light); cursor: not-allowed;">即将发布</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endif %}
             {% endfor %}
         </tbody>
     </table>

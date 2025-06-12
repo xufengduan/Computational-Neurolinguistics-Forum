@@ -20,21 +20,22 @@ permalink: /events/
             </tr>
         </thead>
         <tbody>
-            {% assign upcoming_events = site.data.events.events | where_exp: "event", "event.status == 'active' or event.status == 'upcoming'" | sort: "date" %}
-            {% for event in upcoming_events %}
-            <tr>
-                <td>{{ event.date | date: "%Y年%m月%d日" }}</td>
-                <td>{{ event.speaker }}</td>
-                <td><em>{{ event.title }}</em></td>
-                <td>{{ event.institution }}</td>
-                <td>
-                    {% if event.status == 'active' %}
-                    <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">详情</a>
-                    {% else %}
-                    <span class="button" style="background-color: var(--text-light);">即将发布</span>
-                    {% endif %}
-                </td>
-            </tr>
+            {% for event in site.data.events.events %}
+                {% if event.status == 'active' or event.status == 'upcoming' %}
+                <tr>
+                    <td>{{ event.date | date: "%Y年%m月%d日" }}</td>
+                    <td>{{ event.speaker }}</td>
+                    <td><em>{{ event.title }}</em></td>
+                    <td>{{ event.institution }}</td>
+                    <td>
+                        {% if event.status == 'active' %}
+                        <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">详情</a>
+                        {% else %}
+                        <span class="button" style="background-color: var(--text-light);">即将发布</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endif %}
             {% endfor %}
         </tbody>
     </table>
@@ -44,19 +45,20 @@ permalink: /events/
 
 <div class="card">
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
-        {% assign past_events = site.data.events.events | where_exp: "event", "event.status == 'past'" | sort: "date" | reverse %}
-        {% for event in past_events %}
-        <div style="background: var(--background-light); padding: 1rem; border-radius: var(--border-radius);">
-            <h4>{{ event.date | date: "%Y年%m月" }}</h4>
-            <p><strong>{{ event.title }}</strong></p>
-            <p>{{ event.speaker }}（{{ event.institution }}）</p>
-            {% if event.slides %}
-            <a href="{{ event.slides }}" class="button">查看幻灯片</a>
+        {% for event in site.data.events.events %}
+            {% if event.status == 'past' %}
+            <div style="background: var(--background-light); padding: 1rem; border-radius: var(--border-radius);">
+                <h4>{{ event.date | date: "%Y年%m月" }}</h4>
+                <p><strong>{{ event.title }}</strong></p>
+                <p>{{ event.speaker }}（{{ event.institution }}）</p>
+                {% if event.slides %}
+                <a href="{{ event.slides }}" class="button">查看幻灯片</a>
+                {% endif %}
+                {% if event.video %}
+                <a href="{{ event.video }}" class="button">观看视频</a>
+                {% endif %}
+            </div>
             {% endif %}
-            {% if event.video %}
-            <a href="{{ event.video }}" class="button">观看视频</a>
-            {% endif %}
-        </div>
         {% endfor %}
     </div>
 </div>
