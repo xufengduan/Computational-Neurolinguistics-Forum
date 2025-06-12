@@ -1,0 +1,19 @@
+title: 计算神经语言学论坛
+description: 一个专注于心理语言学、神经科学和计算建模交叉领域的学术论坛
+baseurl: "" # 如果您的网站不是部署在根目录，请在这里指定子目录
+url: "" # 您的网站域名
+
+# 构建设置
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore 
