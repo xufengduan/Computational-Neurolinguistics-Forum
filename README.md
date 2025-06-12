@@ -103,7 +103,7 @@ permalink: /
         <div style="text-align: center;">
             <img src="{{ site.baseurl }}/assets/images/organizers/shuqi.jpg" alt="王书琪" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
             <h3 style="margin: 0.5rem 0;">王书琪</h3>
-            <p style="color: var(--text-light); margin: 0.5rem 0;">香港大学</p>
+            <p style="color: var(--text-light); margin: 0.5rem 0;">香港中文大学</p>
             <div style="margin-top: 1rem;">
                 <a href="https://scholar.google.com/citations?user=zfmMDg4AAAAJ&hl=en" class="button" style="margin: 0.5rem;">Google Scholar</a>
             </div>
@@ -112,7 +112,7 @@ permalink: /
         <div style="text-align: center;">
             <img src="{{ site.baseurl }}/assets/images/organizers/hanlin.jpg" alt="吴翰林" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
             <h3 style="margin: 0.5rem 0;">吴翰林</h3>
-            <p style="color: var(--text-light); margin: 0.5rem 0;">香港大学</p>
+            <p style="color: var(--text-light); margin: 0.5rem 0;">香港中文大学</p>
             <div style="margin-top: 1rem;">
                 <a href="https://hanlin.phd/" class="button" style="margin: 0.5rem;">个人主页</a>
             </div>
