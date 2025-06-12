@@ -14,7 +14,7 @@ permalink: /archive
 {% assign events_by_month = year.items | group_by_exp: "event", "event.date | date: '%m'" | sort: "name" | reverse %}
 
 {% for month in events_by_month %}
-### {{ month.name | date: "%m" | to_integer | date: "%m月" }}
+### {{ month.name }}月
 
 {% for event in month.items %}
 - **{{ event.speaker }}** ({{ event.institution }})
