@@ -8,10 +8,10 @@ permalink: /
 
 <div style="text-align: center; margin: 2rem 0;">
     <p style="font-size: 1.2rem; color: var(--text-light);">
-        欢迎来到**计算神经语言学论坛**的官方网站，这是一个由**计算神经语言学**公众号主办的学术交流平台。
+        欢迎来到<strong>计算神经语言学论坛</strong>的官方网站，这是一个由<strong>计算神经语言学</strong>公众号主办的学术交流平台。
     </p>
     <p style="font-size: 1.2rem; color: var(--text-light);">
-        我们专注于**心理语言学、神经科学和计算建模**的交叉领域，促进开放、跨学科的对话。
+        我们专注于<strong>心理语言学、神经科学和计算建模</strong>的交叉领域，促进开放、跨学科的对话。
     </p>
 </div>
 
@@ -84,6 +84,21 @@ permalink: /
             {% endif %}
         </div>
         {% endfor %}
+    </div>
+</div>
+
+## 👥 组织者
+
+<div class="card">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+        <div>
+            <h4>论坛组织者</h4>
+            <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 1rem;"><a href="https://xufengduan.github.io/">段旭峰</a></li>
+                <li style="margin-bottom: 1rem;"><a href="https://scholar.google.com/citations?user=zfmMDg4AAAAJ&hl=en">王书琪</a></li>
+                <li style="margin-bottom: 1rem;"><a href="https://hanlin.phd/">吴翰林</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 
