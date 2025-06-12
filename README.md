@@ -207,7 +207,7 @@ permalink: /
     <p style="margin: 1rem 0;">我们欢迎所有对计算神经语言学感兴趣的研究者和学生</p>
     <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1rem;">
         <a href="{{ site.baseurl }}/community/" class="button">立即加入</a>
-        <button onclick="showQRCode()" class="button" style="background-color: var(--accent-color);">关注公众号</button>
+        <a href="#" onclick="showQRCode(); return false;" class="button" style="background-color: var(--accent-color);">关注公众号</a>
     </div>
 </div>
 
