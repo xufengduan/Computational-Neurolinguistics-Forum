@@ -19,15 +19,14 @@ permalink: /community/
 **计算神经语言学**
 
 ### 3. 加入讨论组
-- Slack 工作区：[计算神经语言学讨论组](#)
 - 微信群：请通过公众号后台获取入群方式
 
 ## 社群活动
 
-### 定期活动
-- 每周文献讨论会
-- 月度技术工作坊
-- 季度学术沙龙
+### 不定期活动
+- 文献讨论会
+- 技术工作坊
+- 学术沙龙
 
 ### 合作机会
 - 联合举办学术会议
@@ -35,7 +34,6 @@ permalink: /community/
 - 数据共享与合作
 
 ## 社群守则
-
 1. 尊重学术诚信
 2. 保持专业讨论氛围
 3. 遵守数据使用规范
@@ -43,10 +41,8 @@ permalink: /community/
 
 ## 联系我们
 
-- 邮箱：neuro.language.research@gmail.com
+- 邮箱：xufeng.duan@link.cuhk.edu.hk
 - 微信公众号：计算神经语言学
-- 网站：[www.computational-neurolinguistics.org](#)
+- 网站：[https://xufengduan.github.io/Computational-Neurolinguistics-Forum/](#)
 
 ---
-
-> 加入社群即表示同意遵守社群守则和学术规范。 
