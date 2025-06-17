@@ -1,4 +1,9 @@
 _site/
+__pycache__/
+*.pyc
+*.log
+edit_steps.txt
+.DS_Store
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata

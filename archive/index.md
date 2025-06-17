@@ -13,11 +13,11 @@ permalink: /archive
 
 <div class="card" style="margin: 2rem 0;">
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
-        {% assign events_by_month = year.items | group_by_exp: "event", "event.date | date: '%m'" | sort: "name" | reverse %}
-        {% for month in events_by_month %}
-            {% for event in month.items %}
+{% assign events_by_month = year.items | group_by_exp: "event", "event.date | date: '%m'" | sort: "name" | reverse %}
+{% for month in events_by_month %}
+{% for event in month.items %}
             <div class="event-card">
-                <h4>{{ event.date | date: "%Y年%m月" }}</h4>
+                <h4>{% assign hour = event.date | date: "%H" | plus: 0 %}{% if hour < 12 %}上午{% else %}下午{% endif %}{{ event.date | date: "%Y年%m月%d日 %H:%M" }}</h4>
                 <p><strong>{{ event.title }}</strong></p>
                 <p>{{ event.speaker }}（{{ event.institution }}）</p>
                 {% if event.slides %}
@@ -25,10 +25,10 @@ permalink: /archive
                 {% endif %}
                 {% if event.video %}
                 <a href="{{ event.video }}" class="button">观看视频</a>
-                {% endif %}
+  {% endif %}
             </div>
-            {% endfor %}
-        {% endfor %}
+{% endfor %}
+{% endfor %}
     </div>
 </div>
 {% endfor %}

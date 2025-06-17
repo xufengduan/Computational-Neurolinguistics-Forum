@@ -6,8 +6,8 @@ generate:
 clean:
 	rm -rf _site
 
-serve: generate
+serve: 
 	bundle exec jekyll serve
 
-build: generate
+build: 
 	bundle exec jekyll build 
