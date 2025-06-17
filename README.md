@@ -127,6 +127,19 @@ permalink: /
     .events-table tr:hover {
         background-color: var(--background-light);
     }
+
+    .organizers-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        .organizers-grid {
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+    }
 }
 </style>
 
@@ -170,7 +183,7 @@ permalink: /
 ## 👥 组织者
 
 <div class="card">
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;" class="organizers-grid">
         <div style="text-align: center;">
             <img src="{{ site.baseurl }}/assets/images/organizers/compressed/xufeng.jpg" alt="段旭峰" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
             <h3 style="margin: 0.5rem 0;">段旭峰</h3>
