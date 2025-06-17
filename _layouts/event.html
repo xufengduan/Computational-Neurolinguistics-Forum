@@ -12,6 +12,12 @@ layout: default
                     {% if page.zoom_link %}
                     <p><strong>Zoom链接：</strong><a href="{{ page.zoom_link }}">点击加入</a></p>
                     {% endif %}
+                    {% if page.zoom_id %}
+                    <p><strong>会议ID：</strong>{{ page.zoom_id }}</p>
+                    {% endif %}
+                    {% if page.zoom_password %}
+                    <p><strong>会议密码：</strong>{{ page.zoom_password }}</p>
+                    {% endif %}
         </div>
 
         <div class="event-content">

@@ -6,7 +6,7 @@ institution: 香港城市大学
 date: 2025-07-08 10:00
 permalink: /events/2025-07-Li-Jixing/
 zoom_link: |
-  https://cuhk.zoom.us/j/6549166637
+  https://cuhk.zoom.us/j/99902681951?pwd=KFTCQIbwRYLOMjj65Ylhr4EorvdlvY.1
 abstract: |
   本研究探讨了大型语言模型（LLMs）与人类大脑语言处理的对齐关系。研究了模型规模（scaling）和指令微调（instruction tuning）对模型-大脑对齐的影响。
   通过比较不同规模的基座模型和微调模型与人类眼动和功能磁共振成像（fMRI）数据的对应关系，我们发现模型规模对模型-大脑对齐的影响大于指令微调。
