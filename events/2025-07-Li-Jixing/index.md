@@ -47,12 +47,6 @@ zoom_password: 957301
 - 时间：{{ page.date | date: "%Y年%m月%d日" }} {% assign hour = page.date | date: "%H" | plus: 0 %}{% if hour < 12 %}上午{% else %}下午{% endif %} {{ page.date | date: "%H:%M" }}（北京时间）
 - 平台：Zoom
 - 语言：中文
-{% if page.zoom_id %}
-- 会议ID：{{ page.zoom_id }}
-{% endif %}
-{% if page.zoom_password %}
-- 会议密码：{{ page.zoom_password }}
-{% endif %}
 
 ## 讲座大纲
 

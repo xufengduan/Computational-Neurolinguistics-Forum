@@ -49,9 +49,14 @@ layout: default
 
     .event-meta {
         margin: 2rem 0;
-        padding: 1rem;
+        padding: 1.5rem;
         background: var(--background-light);
         border-radius: var(--border-radius);
+    }
+
+    .event-meta p {
+        margin: 0.8rem 0;
+        word-break: break-word;
     }
 
     .event-content {
@@ -63,5 +68,20 @@ layout: default
         margin-top: 2rem;
         padding-top: 2rem;
         border-top: 1px solid var(--border-color);
+    }
+
+    @media screen and (max-width: 768px) {
+        .event-detail {
+            padding: 1rem;
+        }
+
+        .event-meta {
+            margin: 1rem 0;
+            padding: 1rem;
+        }
+
+        .event-meta p {
+            margin: 0.6rem 0;
+        }
     }
 </style>
