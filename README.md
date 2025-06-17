@@ -33,7 +33,7 @@ permalink: /
                 {% for event in site.data.events.events %}
                     {% if event.status == 'active' or event.status == 'upcoming' %}
                     <tr>
-                        <td data-label="日期">{% assign hour = event.date | date: "%H" | plus: 0 %}{% if hour < 12 %}上午{% else %}下午{% endif %}{{ event.date | date: "%Y年%m月%d日 %H:%M" }}</td>
+                        <td data-label="日期">{{ event.date | date: "%Y年%m月%d日" }} {% assign hour = event.date | date: "%H" | plus: 0 %}{% if hour < 12 %}上午{% else %}下午{% endif %} {{ event.date | date: "%H:%M" }}</td>
                         <td data-label="演讲者">{{ event.speaker }}</td>
                         <td data-label="主题"><em>{{ event.title }}</em></td>
                         <td data-label="单位">{{ event.institution }}</td>

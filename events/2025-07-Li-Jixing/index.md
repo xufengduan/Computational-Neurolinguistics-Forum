@@ -22,6 +22,8 @@ outline: |
   
 resources: |
   - [预读论文](https://www.biorxiv.org/content/10.1101/2024.08.15.608196v4)
+zoom_id: 999 0268 1951
+zoom_password: 957301
 ---
 
 ## 讲座简介
@@ -42,10 +44,15 @@ resources: |
 
 ## 参与方式
 
-- 时间：{{ page.date | date: "%Y年%m月%d日" }} 20:00-21:30（北京时间）
+- 时间：{{ page.date | date: "%Y年%m月%d日" }} {% assign hour = page.date | date: "%H" | plus: 0 %}{% if hour < 12 %}上午{% else %}下午{% endif %} {{ page.date | date: "%H:%M" }}（北京时间）
 - 平台：Zoom
 - 语言：中文
-- 费用：免费
+{% if page.zoom_id %}
+- 会议ID：{{ page.zoom_id }}
+{% endif %}
+{% if page.zoom_password %}
+- 会议密码：{{ page.zoom_password }}
+{% endif %}
 
 ## 讲座大纲
 

@@ -7,8 +7,8 @@ layout: default
         <div class="event-meta">
             <p><strong>演讲者：</strong>{{ page.speaker }}</p>
             <p><strong>单位：</strong>{{ page.institution }}</p>
-            <p><strong>时间：</strong>{% assign hour = page.date | date: "%H" | plus: 0 %}{% if hour < 12 %}上午{% else
-                    %}下午{% endif %}{{ page.date | date: "%Y年%m月%d日 %H:%M" }}</p>
+            <p><strong>时间：</strong>{{ page.date | date: "%Y年%m月%d日" }} {% assign hour = page.date | date: "%H" | plus: 0
+                %}{% if hour < 12 %}上午{% else %}下午{% endif %} {{ page.date | date: "%H:%M" }}</p>
                     {% if page.zoom_link %}
                     <p><strong>Zoom链接：</strong><a href="{{ page.zoom_link }}">点击加入</a></p>
                     {% endif %}

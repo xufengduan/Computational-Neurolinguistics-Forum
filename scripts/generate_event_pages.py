@@ -35,6 +35,12 @@ permalink: /events/{event["permalink"]}/
             for line in event[field].split('\n'):
                 content += f'  {line}\n'
 
+    # 添加数字类型的字段
+    if 'zoom_id' in event:
+        content += f'zoom_id: {event["zoom_id"]}\n'
+    if 'zoom_password' in event:
+        content += f'zoom_password: {event["zoom_password"]}\n'
+
     content += '''---
 
 ## 讲座简介
@@ -55,10 +61,15 @@ permalink: /events/{event["permalink"]}/
 
 ## 参与方式
 
-- 时间：{{ page.date | date: "%Y年%m月%d日" }} 20:00-21:30（北京时间）
+- 时间：{{ page.date | date: "%Y年%m月%d日" }} {% assign hour = page.date | date: "%H" | plus: 0 %}{% if hour < 12 %}上午{% else %}下午{% endif %} {{ page.date | date: "%H:%M" }}（北京时间）
 - 平台：Zoom
 - 语言：中文
-- 费用：免费
+{% if page.zoom_id %}
+- 会议ID：{{ page.zoom_id }}
+{% endif %}
+{% if page.zoom_password %}
+- 会议密码：{{ page.zoom_password }}
+{% endif %}
 
 ## 讲座大纲
 
