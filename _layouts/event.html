@@ -16,9 +16,11 @@ layout: default
             </div>
         </div>
         <div class="event-meta">
-            <p><strong>时间：</strong>{{ page.date | date: "%Y年%m月%d日" }} {% assign hour = page.date | date: "%H" | plus: 0
-                %}{% if hour < 12 %}上午{% else %}下午{% endif %} {{ page.date | date: "%H:%M" }}</p>
-                    <div class="zoom-info">
+
+            <div class="zoom-info">
+                <p><strong>时间：</strong>{{ page.date | date: "%Y年%m月%d日" }} {% assign hour = page.date | date: "%H" |
+                    plus: 0
+                    %}{% if hour < 12 %}上午{% else %}下午{% endif %} {{ page.date | date: "%H:%M" }}</p>
                         {% if page.zoom_link %}
                         <a href="{{ page.zoom_link }}" class="button">加入会议</a>
                         {% endif %}
@@ -28,7 +30,7 @@ layout: default
                         {% if page.zoom_password %}
                         <p class="zoom-detail"><strong>密码：</strong>{{ page.zoom_password }}</p>
                         {% endif %}
-                    </div>
+            </div>
         </div>
 
         <div class="event-content">
