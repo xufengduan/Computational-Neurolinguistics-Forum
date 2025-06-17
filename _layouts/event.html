@@ -3,7 +3,16 @@ layout: default
 ---
 <div class="event-detail">
     <div class="card">
-        <h1>{{ page.title }}</h1>
+        <div class="event-header">
+            {% if page.photo %}
+            <div class="speaker-photo">
+                <img src="/assets/images/speakers/{{ page.photo }}" alt="{{ page.speaker }}">
+            </div>
+            {% endif %}
+            <div class="event-title">
+                <h1>{{ page.title }}</h1>
+            </div>
+        </div>
         <div class="event-meta">
             <p><strong>演讲者：</strong>{{ page.speaker }}</p>
             <p><strong>单位：</strong>{{ page.institution }}</p>
@@ -47,6 +56,35 @@ layout: default
         padding: 2rem 0;
     }
 
+    .event-header {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .speaker-photo {
+        flex-shrink: 0;
+        width: 200px;
+        height: 200px;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+    }
+
+    .speaker-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .event-title {
+        flex-grow: 1;
+    }
+
+    .event-title h1 {
+        margin-top: 0;
+    }
+
     .event-meta {
         margin: 2rem 0;
         padding: 1.5rem;
@@ -73,6 +111,18 @@ layout: default
     @media screen and (max-width: 768px) {
         .event-detail {
             padding: 1rem;
+        }
+
+        .event-header {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 1rem;
+        }
+
+        .speaker-photo {
+            width: 150px;
+            height: 150px;
         }
 
         .event-meta {

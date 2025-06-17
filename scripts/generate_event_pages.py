@@ -27,7 +27,7 @@ permalink: /events/{event["permalink"]}/
 
     # 添加所有可选字段
     optional_fields = ['zoom_link', 'slides', 'video',
-                       'abstract', 'bio', 'outline', 'resources']
+                       'abstract', 'bio', 'outline', 'resources', 'photo']
     for field in optional_fields:
         if field in event:
             content += f'{field}: |\n'
