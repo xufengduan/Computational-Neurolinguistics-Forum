@@ -27,7 +27,7 @@ permalink: /events/{event["permalink"]}/
 
     # 添加所有可选字段
     optional_fields = ['zoom_link', 'slides', 'video',
-                       'abstract', 'bio', 'outline', 'resources', 'photo']
+                       'abstract', 'bio', 'outline', 'resources']
     for field in optional_fields:
         if field in event:
             content += f'{field}: |\n'
@@ -40,6 +40,9 @@ permalink: /events/{event["permalink"]}/
         content += f'zoom_id: {event["zoom_id"]}\n'
     if 'zoom_password' in event:
         content += f'zoom_password: {event["zoom_password"]}\n'
+    # 添加照片字段（不需要多行处理）
+    if 'photo' in event:
+        content += f'photo: {event["photo"]}\n'
 
     content += '''---
 

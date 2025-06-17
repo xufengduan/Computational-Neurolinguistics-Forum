@@ -19,10 +19,9 @@ outline: |
   
 resources: |
   - [预读论文](https://www.biorxiv.org/content/10.1101/2024.08.15.608196v4)
-photo: |
-  jixing.png
 zoom_id: 999 0268 1951
 zoom_password: 957301
+photo: jixing.png
 ---
 
 ## 讲座简介
