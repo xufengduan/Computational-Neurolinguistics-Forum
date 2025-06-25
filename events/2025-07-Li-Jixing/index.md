@@ -19,8 +19,8 @@ outline: |
   
 resources: |
   - [预读论文](https://www.biorxiv.org/content/10.1101/2024.08.15.608196v4)
-zoom_id: 999 0268 1951
-zoom_password: 957301
+zoom_id: 958 9105 3788
+zoom_password: 213165
 photo: jixing.png
 ---
 
