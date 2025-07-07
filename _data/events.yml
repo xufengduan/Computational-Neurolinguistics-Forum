@@ -18,3 +18,23 @@ events:
       2. 问答环节
     resources: |
       - [预读论文](https://www.biorxiv.org/content/10.1101/2024.08.15.608196v4)
+  - date: 2025-07-28 10:00
+    speaker: 于劭赟博士
+    title: 大语言模型遇上阅读中的大脑
+    institution: 香港中文大学
+    permalink: 2025-07-Yu-Shaoyun
+    photo: shaoyun.jpg
+    status: upcoming
+    zoom_link: https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
+    zoom_id: 958 9105 3788
+    zoom_password: 213165
+    abstract: |
+       - 阅读的认知神经机制 - 语言模型的训练 - 上下文的作用 - 模型-脑对齐中的个体差异
+    bio: |
+      于劭赟现为香港中文大学语言学及现代语言系研究助理教授。他于2021年获得名古屋大学人文学博士学位，于2025 年在香港理工大学脑、语言及计算实验室完成博士后研究。他的研究兴趣涵盖人类语言的多个基本组成部分，从基础的句法结构、具身认知，到更高层次的语篇理解。他结合计算建模、神经影像和行为实验的方法，以跨学科的视角研究这些课题。其研究成果已发表于 Science Advances、 Brain and Language、Frontiers inPsychology、Language Sciences等期刊
+    outline: |
+      1. 讲座内容
+      2. 问答环节
+    resources: |
+      - [预读论文](https://www.science.org/doi/10.1126/sciadv.adn7744)
+    
