@@ -17,12 +17,13 @@ permalink: /archive
 {% assign events_by_month = year.items | group_by_exp: "event", "event.date | date: '%m'" | sort: "name" | reverse %}
 {% for month in events_by_month %}
 {% for event in month.items %}
+            <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="event-card-link">
             <div class="event-card">
                 <h4>{{ event.date | date: "%Y年%m月%d日" }} {% assign hour = event.date | date: "%H" | plus: 0 %}{% if hour < 12 %}上午{% else %}下午{% endif %} {{ event.date | date: "%H:%M" }}</h4>
                 <p><strong>{{ event.title }}</strong></p>
                 <p>{{ event.speaker }}（{{ event.institution }}）</p>
-                <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">查看详情</a>
             </div>
+            </a>
 {% endfor %}
 {% endfor %}
     </div>
@@ -36,9 +37,16 @@ permalink: /archive
     border-radius: var(--border-radius);
     transition: all 0.3s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
 }
 
-.event-card:hover {
+.event-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.event-card-link:hover .event-card {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
