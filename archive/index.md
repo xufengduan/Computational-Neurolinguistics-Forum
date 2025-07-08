@@ -6,7 +6,8 @@ permalink: /archive
 
 # 历史讲座汇总
 
-{% assign events_by_year = site.data.events.events | group_by_exp: "event", "event.date | date: '%Y'" | sort: "name" | reverse %}
+{% assign past_events = site.data.events.events | where: "status", "past" %}
+{% assign events_by_year = past_events | group_by_exp: "event", "event.date | date: '%Y'" | sort: "name" | reverse %}
 
 {% for year in events_by_year %}
 ## {{ year.name }}年
@@ -20,12 +21,7 @@ permalink: /archive
                 <h4>{{ event.date | date: "%Y年%m月%d日" }} {% assign hour = event.date | date: "%H" | plus: 0 %}{% if hour < 12 %}上午{% else %}下午{% endif %} {{ event.date | date: "%H:%M" }}</h4>
                 <p><strong>{{ event.title }}</strong></p>
                 <p>{{ event.speaker }}（{{ event.institution }}）</p>
-                {% if event.slides %}
-                <a href="{{ event.slides }}" class="button">查看幻灯片</a>
-                {% endif %}
-                {% if event.video %}
-                <a href="{{ event.video }}" class="button">观看视频</a>
-  {% endif %}
+                <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">查看详情</a>
             </div>
 {% endfor %}
 {% endfor %}

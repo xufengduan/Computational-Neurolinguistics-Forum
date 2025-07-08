@@ -51,15 +51,7 @@ permalink: /events/
                 <h4>{{ event.date | date: "%Y年%m月" }}</h4>
                 <p><strong>{{ event.title }}</strong></p>
                 <p>{{ event.speaker }}（{{ event.institution }}）</p>
-                {% if event.slides %}
-                <a href="{{ event.slides }}" class="button">查看幻灯片</a>
-                {% endif %}
-                {% if event.video_link %}
-                <a href="{{ event.video_link }}" class="button" target="_blank">观看视频</a>
-                {% if event.video_password %}
-                <p style="color: var(--text-light); font-size: 0.9rem; margin: 0.3rem 0; background: white; padding: 0.3rem; border-radius: 4px; display: inline-block;"><strong>密码：</strong>{{ event.video_password }}</p>
-                {% endif %}
-                {% endif %}
+                <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">查看详情</a>
             </div>
             {% endif %}
         {% endfor %}
