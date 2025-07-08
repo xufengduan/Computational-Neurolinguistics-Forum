@@ -103,11 +103,10 @@ def main():
     # 加载所有讲座数据
     events_data = load_events()
 
-    # 只生成 active 和 upcoming 状态的讲座页面
+    # 生成所有状态的讲座页面
     for event in events_data['events']:
-        if event['status'] in ['active', 'upcoming']:
-            print(f"生成讲座页面：{event['title']}")
-            generate_event_page(event)
+        print(f"生成讲座页面：{event['title']}")
+        generate_event_page(event)
 
 
 if __name__ == '__main__':

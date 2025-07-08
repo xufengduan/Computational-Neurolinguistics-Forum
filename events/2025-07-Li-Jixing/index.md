@@ -25,6 +25,7 @@ resources: |
 zoom_id: 958 9105 3788
 zoom_password: 213165
 video_password: Cf7.5C+&
+status: past
 photo: jixing.png
 ---
 
