@@ -44,10 +44,13 @@ layout: default
         </div>
         {% endif %}
 
-        {% if page.video %}
+        {% if page.video_link %}
         <div class="event-resources">
             <h3>讲座视频</h3>
-            <a href="{{ page.video }}" class="button">观看视频</a>
+            <a href="{{ page.video_link }}" class="button" target="_blank">观看视频</a>
+            {% if page.video_password %}
+            <p class="video-detail"><strong>视频密码：</strong>{{ page.video_password }}</p>
+            {% endif %}
         </div>
         {% endif %}
     </div>
@@ -113,6 +116,16 @@ layout: default
         color: var(--text-light);
         font-size: 0.9rem;
         margin: 0.3rem 0;
+    }
+
+    .video-detail {
+        color: var(--text-light);
+        font-size: 0.9rem;
+        margin: 0.3rem 0;
+        background: var(--background-light);
+        padding: 0.5rem;
+        border-radius: var(--border-radius);
+        display: inline-block;
     }
 
     .event-content {

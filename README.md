@@ -172,8 +172,11 @@ permalink: /
             {% if event.slides %}
             <a href="{{ event.slides }}" class="button">查看幻灯片</a>
             {% endif %}
-            {% if event.video %}
-            <a href="{{ event.video }}" class="button">观看视频</a>
+            {% if event.video_link %}
+            <a href="{{ event.video_link }}" class="button" target="_blank">观看视频</a>
+            {% if event.video_password %}
+            <p style="color: var(--text-light); font-size: 0.9rem; margin: 0.3rem 0; background: white; padding: 0.3rem; border-radius: 4px; display: inline-block;"><strong>密码：</strong>{{ event.video_password }}</p>
+            {% endif %}
             {% endif %}
         </div>
         {% endfor %}
