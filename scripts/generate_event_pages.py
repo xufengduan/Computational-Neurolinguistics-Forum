@@ -42,6 +42,9 @@ permalink: /events/{event["permalink"]}/
         content += f'zoom_password: {event["zoom_password"]}\n'
     if 'video_password' in event:
         content += f'video_password: {event["video_password"]}\n'
+    # 添加状态字段
+    if 'status' in event:
+        content += f'status: {event["status"]}\n'
     # 添加照片字段（不需要多行处理）
     if 'photo' in event:
         content += f'photo: {event["photo"]}\n'
