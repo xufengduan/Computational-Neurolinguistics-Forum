@@ -27,7 +27,7 @@ events:
     institution: 香港中文大学
     permalink: 2025-07-Yu-Shaoyun
     photo: shaoyun.jpg
-    status: active
+    status: past
     zoom_link: https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
     zoom_id: 958 9105 3788
     zoom_password: 213165
@@ -40,12 +40,15 @@ events:
       2. 问答环节
     resources: |
       - [预读论文](https://www.science.org/doi/10.1126/sciadv.adn7744)
+    video_link: https://cuhk.zoom.us/rec/share/YTNiKs-gssSIdDnuoI4fUtRwcP8KlGGOAmB2USgc7nIvL3yOW7xQtaAQpMYBbLRP.Rk9C0_3vf7FSmpq4?startTime=1753668128000
+    video_password: MVZ7eW#u
 
   - date: 2025-09-01 10:00
     speaker: 王浩丞
     title: 多模态语言文本大模型可以全面预测人脑自然语言活动
     institution: 香港中文大学
     permalink: 2025-09-Wang-Haocheng
+    photo: haocheng.jpg
     status: active
     zoom_link: https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
     zoom_id: 958 9105 3788
