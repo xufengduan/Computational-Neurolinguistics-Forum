@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 多模态语言文本大模型可以全面预测人脑自然语言活动
+title: 语音文本大模型可以预测人脑自然语言活动
 speaker: 王浩丞
 institution: 普林斯顿大学
 date: 2025-09-01 10:00
