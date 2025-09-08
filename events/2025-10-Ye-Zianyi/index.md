@@ -3,7 +3,7 @@ layout: event
 title: TBD
 speaker: 叶子逸博士
 institution: 可信具身智能研究院
-date: 2025-10
+date: 2025
 permalink: /events/2025-10-Ye-Zianyi/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
