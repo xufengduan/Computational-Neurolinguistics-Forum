@@ -1,21 +1,12 @@
 ---
 layout: event
-title: TBD
-speaker: 叶子逸博士
-institution: 可信具身智能研究院
-date: 2025-10-31 19:00
-permalink: /events/2025-10-Ye-Zianyi/
+title: 人与大语言模型的层级结构表征
+speaker: 刘威
+institution: 浙江大学
+date: 2025-10-15 15:00
+permalink: /events/2025-10-Liu-Wei/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
-abstract: |
-  TBD
-  
-bio: |
-  TBD
-  
-outline: |
-  1. 讲座内容
-  2. 问答环节
 zoom_id: 958 9105 3788
 zoom_password: 213165
 status: active

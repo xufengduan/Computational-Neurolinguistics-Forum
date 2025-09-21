@@ -103,8 +103,17 @@ events:
       TBD
     bio: |
       TBD
+  - date: 2025-10-15 15:00
+    speaker: 刘威
+    title: 人与大语言模型的层级结构表征
+    institution: 浙江大学
+    permalink: 2025-10-Liu-Wei
+    status: active
+    zoom_link: https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
+    zoom_id: 958 9105 3788
+    zoom_password: 213165
   
-  - date: 2025
+  - date: 2025-10-31 19:00
     speaker: 叶子逸博士
     title: TBD
     institution: 可信具身智能研究院
