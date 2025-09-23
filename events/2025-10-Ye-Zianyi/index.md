@@ -1,7 +1,7 @@
 ---
 layout: event
 title: TBD
-speaker: 叶子逸博士
+speaker: 叶子逸教授
 institution: 可信具身智能研究院
 date: 2025-10-31 19:00
 permalink: /events/2025-10-Ye-Zianyi/
