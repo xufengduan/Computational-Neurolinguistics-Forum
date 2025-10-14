@@ -7,6 +7,8 @@ date: 2025-10-10 19:00
 permalink: /events/2025-10-Du-Changde/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
+video_link: |
+  https://cuhk.zoom.us/rec/share/6G7xT7ykl9H11FnFEEj2z0SPNUsCCzwp3p8R5OBBsFNWV_19bQzoq0PfIwSqykA.Vywfs5-J9uA0xRhc
 abstract: |
   人类如何认知和概念化世界万物是认知科学的核心问题。随着多模态大语言模型（MLLM）的兴起，一个关键问题随之而来：这些先进的AI模型是否发展出与人类相似的物体概念表征？我们借鉴认知心理学的经典“三选一”范式，利用大语言模型（LLM）和MLLM收集了数百万次关于上千种自然物体的相似性判断。通过对这些海量行为数据进行表征学习，我们成功解析出模型内部用于概念判断的66个核心维度。研究发现，这些维度不仅稳定、可泛化，并且具有高度的可解释性，涌现出了与人类极为相似的语义结构。将这些大模型的概念表征与人类大脑功能性磁共振成像（fMRI）数据进行对比，发现在负责物体、场景和人脸识别的关键脑区（如EBA, PPA, FFA）中存在高度一致性。这些发现表明，尽管学习机制不同，多模态大模型仍能够发展出与人类类似的内部概念表征。
   
@@ -19,7 +21,8 @@ outline: |
   
 zoom_id: 958 9105 3788
 zoom_password: 213165
-status: active
+video_password: 5^nUA7mu
+status: past
 photo: changde.jpg
 ---
 

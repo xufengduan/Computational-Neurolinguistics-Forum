@@ -98,7 +98,7 @@ events:
     institution: 中科院自动化所
     permalink: 2025-10-Du-Changde
     photo: changde.jpg
-    status: active
+    status: past
     zoom_link: https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
     zoom_id: 958 9105 3788
     zoom_password: 213165
@@ -109,6 +109,8 @@ events:
     outline: |
       1. 讲座内容
       2. 问答环节
+    video_link: https://cuhk.zoom.us/rec/share/6G7xT7ykl9H11FnFEEj2z0SPNUsCCzwp3p8R5OBBsFNWV_19bQzoq0PfIwSqykA.Vywfs5-J9uA0xRhc 
+    video_password: 5^nUA7mu
 
   - date: 2025-10-15 15:00
     speaker: 刘威
