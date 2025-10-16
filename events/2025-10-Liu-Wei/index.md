@@ -7,9 +7,13 @@ date: 2025-10-15 15:00
 permalink: /events/2025-10-Liu-Wei/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
+video_link: |
+  https://cuhk.zoom.us/rec/share/58HlO_f0SUf2pxmwWTNvD1syd5VsCPBDSpOm9IR9iYSVp_2FxL8IP8TksHs_5cSn.wy0WuItr5c9_G8J9
 zoom_id: 958 9105 3788
 zoom_password: 213165
-status: active
+video_password: mAu#9BAj
+status: past
+photo: wei.jpg
 ---
 
 ## 讲座简介
