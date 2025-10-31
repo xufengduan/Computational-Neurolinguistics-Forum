@@ -16,6 +16,7 @@ bio: |
 outline: |
   1. 讲座内容
   2. 问答环节
+  
 zoom_id: 958 9105 3788
 zoom_password: 213165
 status: active
