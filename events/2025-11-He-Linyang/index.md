@@ -23,7 +23,7 @@ resources: |
 zoom_id: 958 9105 3788
 zoom_password: 213165
 status: active
-photo: linyang.png
+photo: linyang.jpg
 ---
 
 ## 讲座简介

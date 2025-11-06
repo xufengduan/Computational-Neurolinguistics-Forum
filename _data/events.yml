@@ -131,7 +131,7 @@ events:
     institution: 复旦大学可信具身智能研究院
     permalink: 2025-10-Ye-Zianyi
     photo: ziyi.png
-    status: active
+    status: past
     zoom_link: https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
     zoom_id: 958 9105 3788
     zoom_password: 213165
@@ -142,7 +142,9 @@ events:
     outline: |
       1. 讲座内容
       2. 问答环节
-
+    video_link: https://cuhk.zoom.us/rec/share/aLnlC_k9U5HbDfR3XFbsXn7iA4gKSI5W-MZ1DCs5dCvBWZ2uDR2KhbT--ZfijbbQ.lN80ayOJswC6axGL?startTime=1761908669000
+    video_password: k+y6AFsA
+    
   - date: 2025-11-17 10:00
     speaker: 何林洋
     title: 解纠缠的大模型揭示人脑的推理表征
@@ -162,3 +164,19 @@ events:
       2. 问答环节
     resources: |
       - [预读论文](https://arxiv.org/abs/2510.22860v1)
+
+  - date: 2025-12-03 10:00
+    speaker: 丁鼐教授
+    title: 语句理解的神经动力学机制
+    institution: 浙江大学
+    permalink: 2025-12-Ding-Nai
+    photo: nai.jpg
+    status: active
+    zoom_link: https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
+    zoom_id: 958 9105 3788
+    zoom_password: 213165
+    abstract: |
+      TBD
+    bio: |
+      丁鼐，浙江大学生物医学工程与仪器科学学院研究员，生物医学工程教育部重点实验室副主任。主要研究领域为听觉、语言、音乐理解的认知神经机制，在Nature Neuroscience，Nature Human Behaviour等期刊发表论文数十篇，连续多年入选爱思唯尔“中国高被引学者”，获国际听觉领域的APAN青年科学家奖，Society for Neurobiology of Language（语言神经生物学学会）理事会成员。
+
