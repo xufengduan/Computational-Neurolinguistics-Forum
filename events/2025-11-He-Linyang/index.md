@@ -7,6 +7,8 @@ date: 2025-11-17 10:00
 permalink: /events/2025-11-He-Linyang/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
+video_link: |
+  https://cuhk.zoom.us/rec/share/SKw4xh8SCunFE28JqCwbu50_IhSIUMHozNqpzP5z8FbCvNnHVFLj6iJHZFQR9w81.hyXI07agu5gd0USY?startTime=1763345006000
 abstract: |
   理解人脑如何从处理简单的语言输入发展到执行高级推理，是认知神经科学的一项核心挑战。尽管大型语言模型（LLM）已被广泛用于建模和对齐脑活动，其内部表征仍高度纠缠，混合了词汇、句法、语义与推理等多层信息。直接使用LLM的原始表征难以区分具体由哪些特征驱动脑对齐，从而掩盖了深层认知过程的神经机制。这使得我们对大脑如何实现推理仍知之甚少。本讲座介绍一种新的残差解纠缠方法（Residual Disentanglement），在语言模型中分离出“推理表征”（Reasoning Embedding），并与词汇、句法和语义表征相互正交。结果显示，推理表征呈现出独特的时空响应模式：在时间上表现为约350–400毫秒的延迟高阶峰值，在空间上延伸至视觉皮层，超越传统语言区域。该研究为揭示模型与人脑在深层推理过程中的对应关系提供了新的计算框架，也为理解语言与思维的神经机制开辟了新的方向。
   
@@ -22,6 +24,7 @@ resources: |
   
 zoom_id: 958 9105 3788
 zoom_password: 213165
+video_password: zGT5d*e+
 status: active
 photo: linyang.jpg
 ---

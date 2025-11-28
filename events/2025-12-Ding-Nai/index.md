@@ -3,7 +3,7 @@ layout: event
 title: 语句理解的神经动力学机制
 speaker: 丁鼐教授
 institution: 浙江大学
-date: 2025-12-03 10:00
+date: 2026-01-07 10:00
 permalink: /events/2025-12-Ding-Nai/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
