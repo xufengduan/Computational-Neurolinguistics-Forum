@@ -25,7 +25,7 @@ resources: |
 zoom_id: 958 9105 3788
 zoom_password: 213165
 video_password: zGT5d*e+
-status: active
+status: past
 photo: linyang.jpg
 ---
 
