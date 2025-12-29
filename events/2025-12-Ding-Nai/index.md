@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 语句理解的神经动力学机制
+title: 语言层级结构的神经编码与计算功能
 speaker: 丁鼐教授
 institution: 浙江大学
 date: 2026-01-07 10:00
@@ -8,7 +8,7 @@ permalink: /events/2025-12-Ding-Nai/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
 abstract: |
-  TBD
+  语言是复杂的序列，其中的信息以不同尺度的单元进行组织，形成复杂的多层次结构。本报告围绕以下三个问题展开：一、回顾既往研究中关于语言层级结构神经编码的主要发现，重点分析编码的形式以及神经动力学特征可能如何影响该编码过程；二、探讨大脑为何需要解析这种层级结构，并重点介绍近期一项关于层级结构如何动态调节语言预测加工的研究；三、讨论汉字书写中涉及的层级结构编码以及与书法审美的关系。
   
 bio: |
   丁鼐，浙江大学生物医学工程与仪器科学学院研究员，生物医学工程教育部重点实验室副主任。主要研究领域为听觉、语言、音乐理解的认知神经机制，在Nature Neuroscience，Nature Human Behaviour等期刊发表论文数十篇，连续多年入选爱思唯尔“中国高被引学者”，获国际听觉领域的APAN青年科学家奖，Society for Neurobiology of Language（语言神经生物学学会）理事会成员。
