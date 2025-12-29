@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 大语言模型遇上阅读中的大脑
-speaker: 于劭赟博士
+speaker: 于劭赟
 institution: 香港中文大学
 date: 2025-07-28 10:00
 permalink: /events/2025-07-Yu-Shaoyun/

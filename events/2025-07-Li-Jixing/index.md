@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 大语言模型与人脑语言加工的对齐机制
-speaker: 李吉星博士
+speaker: 李吉星
 institution: 香港城市大学
 date: 2025-07-08 10:00
 permalink: /events/2025-07-Li-Jixing/

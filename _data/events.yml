@@ -1,6 +1,6 @@
 events:
   - date: 2025-07-08 10:00
-    speaker: 李吉星博士
+    speaker: 李吉星
     title: 大语言模型与人脑语言加工的对齐机制
     institution: 香港城市大学
     permalink: 2025-07-Li-Jixing
@@ -22,7 +22,7 @@ events:
     video_password: Cf7.5C+&
   
   - date: 2025-07-28 10:00
-    speaker: 于劭赟博士
+    speaker: 于劭赟
     title: 大语言模型遇上阅读中的大脑
     institution: 香港中文大学
     permalink: 2025-07-Yu-Shaoyun
@@ -66,7 +66,7 @@ events:
     video_password: Lc@B5.x^
 
   - date: 2025-09-22 15:00
-    speaker: 袁涤博士
+    speaker: 袁涤
     title: 大脑的密码：探索失聪儿童的过去和未来
     institution: 香港中文大学
     permalink: 2025-09-Yuan-Di
@@ -93,7 +93,7 @@ events:
     video_password: b#8zUamh
 
   - date: 2025-10-10 19:00
-    speaker: 杜长德教授
+    speaker: 杜长德
     title: 认知启发的多模态大语言模型概念表征机理解析
     institution: 中科院自动化所
     permalink: 2025-10-Du-Changde
@@ -168,7 +168,7 @@ events:
     video_password: zGT5d*e+
 
   - date: 2026-01-07 10:00
-    speaker: 丁鼐教授
+    speaker: 丁鼐
     title: 语言层级结构的神经编码与计算功能
     institution: 浙江大学
     permalink: 2025-12-Ding-Nai

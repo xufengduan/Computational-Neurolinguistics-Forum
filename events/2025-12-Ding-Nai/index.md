@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 语言层级结构的神经编码与计算功能
-speaker: 丁鼐教授
+speaker: 丁鼐
 institution: 浙江大学
 date: 2026-01-07 10:00
 permalink: /events/2025-12-Ding-Nai/

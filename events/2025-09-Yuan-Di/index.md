@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 大脑的密码：探索失聪儿童的过去和未来
-speaker: 袁涤博士
+speaker: 袁涤
 institution: 香港中文大学
 date: 2025-09-22 15:00
 permalink: /events/2025-09-Yuan-Di/

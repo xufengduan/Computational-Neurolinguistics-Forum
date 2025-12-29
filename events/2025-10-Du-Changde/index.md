@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 认知启发的多模态大语言模型概念表征机理解析
-speaker: 杜长德教授
+speaker: 杜长德
 institution: 中科院自动化所
 date: 2025-10-10 19:00
 permalink: /events/2025-10-Du-Changde/
