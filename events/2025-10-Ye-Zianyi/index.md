@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 隐式神经反馈驱动的人工智能系统
-speaker: 叶子逸教授
+speaker: 叶子逸
 institution: 复旦大学可信具身智能研究院
 date: 2025-10-31 19:00
 permalink: /events/2025-10-Ye-Zianyi/

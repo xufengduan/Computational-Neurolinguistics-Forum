@@ -7,6 +7,8 @@ date: 2026-01-07 10:00
 permalink: /events/2025-12-Ding-Nai/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
+video_link: |
+  https://cuhk.zoom.us/rec/share/nXVBXhiyZ0PJZzNbaCJMANIgKOfEgrJikudCoEyu2UH85lvB6EnX-n8kVZHD2N4.4pAS9nK78laR6f24
 abstract: |
   语言是复杂的序列，其中的信息以不同尺度的单元进行组织，形成复杂的多层次结构。本报告围绕以下三个问题展开：一、回顾既往研究中关于语言层级结构神经编码的主要发现，重点分析编码的形式以及神经动力学特征可能如何影响该编码过程；二、探讨大脑为何需要解析这种层级结构，并重点介绍近期一项关于层级结构如何动态调节语言预测加工的研究；三、讨论汉字书写中涉及的层级结构编码以及与书法审美的关系。
   
@@ -15,7 +17,8 @@ bio: |
   
 zoom_id: 958 9105 3788
 zoom_password: 213165
-status: active
+video_password: 4%JJWBT@
+status: past
 photo: nai.jpg
 ---
 
