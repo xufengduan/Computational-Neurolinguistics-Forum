@@ -3,7 +3,7 @@ layout: event
 title: 概念诞生与感知重塑：我们如何用语言"看见"世界
 speaker: 陈昊扬
 institution: 北京大学
-date: 2026-03-01 10:00
+date: 2026-03-13 11:00
 permalink: /events/2026-03-Chen-Haoyang/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
@@ -21,7 +21,7 @@ outline: |
   
 zoom_id: 958 9105 3788
 zoom_password: 213165
-status: upcoming
+status: active
 photo: haoyang.jpg
 ---
 
