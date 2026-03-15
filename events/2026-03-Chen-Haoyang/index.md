@@ -7,6 +7,8 @@ date: 2026-03-13 11:00
 permalink: /events/2026-03-Chen-Haoyang/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
+video_link: |
+  https://cuhk.zoom.us/clips/share/ExxGSQv2QmuTtU2ELrtRKA
 abstract: |
   人类智能的核心能力之一是从复杂的感官经验中抽象出概念（符号化），并在此基础上发展出语言。然而，概念如何从底层感知中"脱离"出来，以及语言系统如何反向塑造我们的感知过程，在计算层面仍缺乏统一的解释。本次报告将围绕以下两项研究展开：
   首先，我将探讨概念是如何自下而上形成的。我们将介绍一个统一的概念认知计算框架——CATS Net。该模型通过双模块架构，模拟了人类如何从高维感官体验中提取低维概念，并随后在脱离直接感官输入的情况下进行知觉任务与交流。模型-大脑拟合分析表明，这种自发形成的概念空间与人类腹侧枕颞皮层（VOTC）的表征结构高度对齐。
