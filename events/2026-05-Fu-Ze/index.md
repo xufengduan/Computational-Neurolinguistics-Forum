@@ -3,7 +3,7 @@ layout: event
 title: 文本计算揭示跨语言语义共享表征空间与气候的关联
 speaker: 付泽
 institution: 巴黎高等师范学院
-date: 2026-05-11 15:00
+date: 2026-05-11 14:00
 permalink: /events/2026-05-Fu-Ze/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
