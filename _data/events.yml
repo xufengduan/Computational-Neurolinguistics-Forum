@@ -222,3 +222,21 @@ events:
     outline: |
       1. 讲座内容
       2. 问答环节
+
+  - date: 2026-05-29 15:00
+    speaker: 邹家杰
+    title: 语言加工中的“排兵布阵”：语言层级结构引导的高效预测机制
+    institution: 浙江大学
+    permalink: 2026-05-Zou-Jiajie
+    photo: jiajie.jpg
+    status: active
+    zoom_link: https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
+    zoom_id: 958 9105 3788
+    zoom_password: 213165
+    abstract: |
+      （讲座摘要待更新）
+    bio: |
+      邹家杰，浙江大学博士后、马普所生物控制论研究所访问学者。研究方向为融合神经影像与计算建模探究大脑如何加工语言、语音。研究成果发表于 Nature Neuroscience、Nature Communications、eLife 等期刊以及 ACL 等计算机会议。获批国自然青年基金，并多次担任Nature Communications、eLife、the Journal of Neuroscience 等期刊审稿人。
+    outline: |
+      1. 讲座内容
+      2. 问答环节
