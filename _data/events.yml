@@ -211,7 +211,7 @@ events:
     institution: 巴黎高等师范学院
     permalink: 2026-05-Fu-Ze
     photo: fuze.png
-    status: active
+    status: past
     zoom_link: https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
     zoom_id: 958 9105 3788
     zoom_password: 213165
@@ -222,6 +222,8 @@ events:
     outline: |
       1. 讲座内容
       2. 问答环节
+    video_link: https://cuhk.zoom.us/rec/share/L-pLNm4LZaq1og7546wjyL-6KZcnMabhll7UHYHJl4HOxTxktTGTkqE7jYvZpoew.HHC9eKMzjqsOJi-r
+    video_password: ?s2$sR80
 
   - date: 2026-05-29 15:00
     speaker: 邹家杰

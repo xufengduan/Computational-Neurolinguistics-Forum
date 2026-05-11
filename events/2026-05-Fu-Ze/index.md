@@ -7,6 +7,8 @@ date: 2026-05-11 14:00
 permalink: /events/2026-05-Fu-Ze/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
+video_link: |
+  https://cuhk.zoom.us/rec/share/L-pLNm4LZaq1og7546wjyL-6KZcnMabhll7UHYHJl4HOxTxktTGTkqE7jYvZpoew.HHC9eKMzjqsOJi-r
 abstract: |
   语言是交流思想、承载意义的重要工具。当今世界现存7000多种语言，各自拥有独特的语音形式、书写系统和句法规则，不同地区的人使用这些迥异的语言交换信息，构建文化内共同知识体系。然而，不同语言使用者理解同一个词多大程度上一致？什么信息在翻译中得以保存，什么又被丢失？跨语言的共性与差异如何产生，仍是领域内广泛讨论的问题。本次报告将分别从共性和差异两个方面展开讨论：一，通过认知视角阐释语言学的问题，探讨认知神经科学中关于概念表征的语义维度模型作为跨语言共同结构的可能性。基于多种语言词嵌入和个体评定空间，报告将探讨大脑中感知与核心认知维度如何构成跨语言语义表征的普遍骨架结构；二，在共同结构基础下，结合"生态-文化演化"的视角——即通过跨文化和历史数据——展示气候、传染病等生态因素如何与跨语言语义差异相关联，揭示语言中概念表征对所处生态环境的适应性发展。
   
@@ -19,7 +21,8 @@ outline: |
   
 zoom_id: 958 9105 3788
 zoom_password: 213165
-status: active
+video_password: ?s2$sR80
+status: past
 photo: fuze.png
 ---
 
