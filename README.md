@@ -11,7 +11,7 @@ permalink: /
         欢迎来到<strong>计算神经语言学论坛</strong>的官方网站，这是一个由<strong>计算神经语言学</strong>公众号主办的学术交流平台。
     </p>
     <p style="color: var(--text-light);">
-        我们专注于<strong>心理语言学、神经科学和计算建模</strong>的交叉领域，促进开放、跨学科的对话。
+        我们专注于<strong>心理学、语言学、神经科学和计算建模</strong>的交叉领域，促进开放、跨学科的对话。
     </p>
 </div>
 
