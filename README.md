@@ -15,6 +15,39 @@ permalink: /
     </p>
 </div>
 
+## 👥 组织者
+
+<div class="card">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;" class="organizers-grid">
+        <div style="text-align: center;">
+            <img src="{{ site.baseurl }}/assets/images/organizers/compressed/xufeng.jpg" alt="段旭峰" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+            <h3 style="margin: 0.5rem 0;">段旭峰</h3>
+            <p style="color: var(--text-light); margin: 0.5rem 0;">香港中文大学</p>
+            <div style="margin-top: 1rem;">
+                <a href="https://xufengduan.github.io/" class="button" style="margin: 0.5rem;">个人主页</a>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <img src="{{ site.baseurl }}/assets/images/organizers/compressed/shuqi.jpg" alt="王书琪" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+            <h3 style="margin: 0.5rem 0;">王书琪</h3>
+            <p style="color: var(--text-light); margin: 0.5rem 0;">香港中文大学</p>
+            <div style="margin-top: 1rem;">
+                <a href="https://scholar.google.com/citations?user=zfmMDg4AAAAJ&hl=en" class="button" style="margin: 0.5rem;">个人主页</a>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <img src="{{ site.baseurl }}/assets/images/organizers/compressed/hanlin.jpg" alt="吴翰林" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+            <h3 style="margin: 0.5rem 0;">吴翰林</h3>
+            <p style="color: var(--text-light); margin: 0.5rem 0;">香港中文大学</p>
+            <div style="margin-top: 1rem;">
+                <a href="https://hanlin.phd/" class="button" style="margin: 0.5rem;">个人主页</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 ## 🎤 即将举行的讲座
 
 <div class="card" style="margin-top: 2rem;">
@@ -172,39 +205,6 @@ permalink: /
             <a href="{{ site.baseurl }}/events/{{ event.permalink }}/" class="button">查看详情</a>
         </div>
         {% endfor %}
-    </div>
-</div>
-
-## 👥 组织者
-
-<div class="card">
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;" class="organizers-grid">
-        <div style="text-align: center;">
-            <img src="{{ site.baseurl }}/assets/images/organizers/compressed/xufeng.jpg" alt="段旭峰" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
-            <h3 style="margin: 0.5rem 0;">段旭峰</h3>
-            <p style="color: var(--text-light); margin: 0.5rem 0;">香港中文大学</p>
-            <div style="margin-top: 1rem;">
-                <a href="https://xufengduan.github.io/" class="button" style="margin: 0.5rem;">个人主页</a>
-            </div>
-        </div>
-        
-        <div style="text-align: center;">
-            <img src="{{ site.baseurl }}/assets/images/organizers/compressed/shuqi.jpg" alt="王书琪" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
-            <h3 style="margin: 0.5rem 0;">王书琪</h3>
-            <p style="color: var(--text-light); margin: 0.5rem 0;">香港中文大学</p>
-            <div style="margin-top: 1rem;">
-                <a href="https://scholar.google.com/citations?user=zfmMDg4AAAAJ&hl=en" class="button" style="margin: 0.5rem;">个人主页</a>
-            </div>
-        </div>
-        
-        <div style="text-align: center;">
-            <img src="{{ site.baseurl }}/assets/images/organizers/compressed/hanlin.jpg" alt="吴翰林" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
-            <h3 style="margin: 0.5rem 0;">吴翰林</h3>
-            <p style="color: var(--text-light); margin: 0.5rem 0;">香港中文大学</p>
-            <div style="margin-top: 1rem;">
-                <a href="https://hanlin.phd/" class="button" style="margin: 0.5rem;">个人主页</a>
-            </div>
-        </div>
     </div>
 </div>
 
