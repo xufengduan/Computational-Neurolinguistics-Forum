@@ -242,6 +242,8 @@ events:
     outline: |
       1. 讲座内容
       2. 问答环节
+    video_link: https://cuhk.zoom.us/rec/share/WAahQhblpvaboDrW-EszF4di3XTw_1e7UH49ddiW612ORshW000HoqKPtxoDF3uZ.b38stpHygv470pB-
+    video_password: c.w2+Bcf
 
   - date: 2026-06-18 10:00
     speaker: 陈佳炫
