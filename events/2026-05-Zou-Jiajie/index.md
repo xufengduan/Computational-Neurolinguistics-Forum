@@ -22,7 +22,7 @@ outline: |
 zoom_id: 958 9105 3788
 zoom_password: 213165
 video_password: c.w2+Bcf
-status: active
+status: past
 photo: jiajie.jpg
 ---
 
