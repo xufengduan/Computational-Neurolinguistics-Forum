@@ -251,7 +251,7 @@ events:
     institution: 浙江大学
     permalink: 2026-06-Chen-Jiaxuan
     photo: jiaxuan.jpg
-    status: active
+    status: past
     zoom_link: https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
     zoom_id: 958 9105 3788
     zoom_password: 213165
@@ -262,6 +262,8 @@ events:
     outline: |
       1. 讲座内容
       2. 问答环节
+    video_link: https://cuhk.zoom.us/rec/share/2tM5nf6wjYZwvd6ONC1oZUvwpp9w6zTEhA65yDn-Q0oAZmhvnuT2be4ZdkWPn5PE.3w5WxeM0W-5E92Xx
+    video_password: x69jG#=F
 
   - date: 2026-07-06 14:00
     speaker: 张光耀

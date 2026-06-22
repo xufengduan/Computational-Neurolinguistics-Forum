@@ -7,6 +7,8 @@ date: 2026-06-22 10:00
 permalink: /events/2026-06-Chen-Jiaxuan/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
+video_link: |
+  https://cuhk.zoom.us/rec/share/2tM5nf6wjYZwvd6ONC1oZUvwpp9w6zTEhA65yDn-Q0oAZmhvnuT2be4ZdkWPn5PE.3w5WxeM0W-5E92Xx
 abstract: |
   近年来，人工智能的发展几乎都遵循着同一个逻辑：参数更大、数据更多、模型更强，但模型虽然"知道得更多"，却未必"理解得更深"——它们可以记住海量知识，却依然会在抽象概念理解、跨场景泛化、概念关系推理等方面暴露出局限性。与此同时，以脑机接口为代表的神经技术快速发展，使得脑与机的结合愈加紧密，脑机融合及一体化逐渐成为人工智能发展的重要趋势。在这一背景下，脑机融合与增强研究受到广泛关注，成为弥补脑机行为差异、提升人工模型认知能力的关键途径之一。本报告将聚焦神经表征学习、脑机表征对齐等问题，探讨神经表征驱动的脑机对齐技术及其在脑机增强中的应用，阐述其研究背景、基本概念与实现形式。
   
@@ -19,7 +21,8 @@ outline: |
   
 zoom_id: 958 9105 3788
 zoom_password: 213165
-status: active
+video_password: x69jG#=F
+status: past
 photo: jiaxuan.jpg
 ---
 
