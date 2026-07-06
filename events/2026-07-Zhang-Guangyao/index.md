@@ -7,6 +7,8 @@ date: 2026-07-06 14:00
 permalink: /events/2026-07-Zhang-Guangyao/
 zoom_link: |
   https://cuhk.zoom.us/j/95891053788?pwd=lWyxDJW0hy9Bkjaubfo9pmUz9qUh7h.1
+video_link: |
+  https://cuhk.zoom.us/rec/share/b9FY1SbbVKGjqZQ7kqzApbpeo_LMlyIJAPIlEWbI2pF4k1_ux70mMRrr1B6cOla9.cWvPEwe8opvAJUzS
 abstract: |
   （讲座摘要待更新）
   
@@ -19,7 +21,8 @@ outline: |
   
 zoom_id: 958 9105 3788
 zoom_password: 213165
-status: active
+video_password: S5!8*zbe
+status: past
 photo: guangyao.png
 ---
 
